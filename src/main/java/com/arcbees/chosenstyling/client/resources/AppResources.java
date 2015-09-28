@@ -1,4 +1,4 @@
-package com.arcbees.testchosen.client.resources;
+package com.arcbees.chosenstyling.client.resources;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;

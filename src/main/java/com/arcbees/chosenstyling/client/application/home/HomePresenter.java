@@ -1,7 +1,7 @@
-package com.arcbees.testchosen.client.application.home;
+package com.arcbees.chosenstyling.client.application.home;
 
-import com.arcbees.testchosen.client.application.ApplicationPresenter;
-import com.arcbees.testchosen.client.place.NameTokens;
+import com.arcbees.chosenstyling.client.application.ApplicationPresenter;
+import com.arcbees.chosenstyling.client.place.NameTokens;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.Presenter;

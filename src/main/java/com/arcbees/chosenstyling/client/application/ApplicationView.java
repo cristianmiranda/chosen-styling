@@ -1,4 +1,4 @@
-package com.arcbees.testchosen.client.application;
+package com.arcbees.chosenstyling.client.application;
 
 import javax.inject.Inject;
 

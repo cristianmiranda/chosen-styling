@@ -1,4 +1,4 @@
-package com.arcbees.testchosen.client.application;
+package com.arcbees.chosenstyling.client.application;
 
 import com.google.gwt.event.shared.GwtEvent;
 import com.google.inject.Inject;

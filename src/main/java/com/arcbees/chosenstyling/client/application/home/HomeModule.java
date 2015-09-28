@@ -1,4 +1,4 @@
-package com.arcbees.testchosen.client.application.home;
+package com.arcbees.chosenstyling.client.application.home;
 
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 

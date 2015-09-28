@@ -1,8 +1,8 @@
-package com.arcbees.testchosen.client.gin;
+package com.arcbees.chosenstyling.client.gin;
 
-import com.arcbees.testchosen.client.application.ApplicationModule;
-import com.arcbees.testchosen.client.place.NameTokens;
-import com.arcbees.testchosen.client.resources.ResourceLoader;
+import com.arcbees.chosenstyling.client.application.ApplicationModule;
+import com.arcbees.chosenstyling.client.place.NameTokens;
+import com.arcbees.chosenstyling.client.resources.ResourceLoader;
 import com.gwtplatform.mvp.client.annotations.DefaultPlace;
 import com.gwtplatform.mvp.client.annotations.ErrorPlace;
 import com.gwtplatform.mvp.client.annotations.UnauthorizedPlace;
