@@ -1,0 +1,3 @@
+.chzn-container-single .chzn-search input {
+    color: red;
+}

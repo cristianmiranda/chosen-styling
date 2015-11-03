@@ -6,13 +6,13 @@
 
     <g:HTMLPanel styleName="{resources.style.content}">
 
-        <h1>Basic Chosen example</h1>
+        <h1>Chosen Styling</h1>
 
         <div class="{resources.style.example}">
 
-            <h2>Single select</h2>
+            <h2>Default style</h2>
 
-            <chzn:ChosenListBox placeholderText="Choose your character..." width="300px">
+            <chzn:ChosenListBox placeholderText="Choose your character..." width="300px" ui:field="singleChosen">
                 <g:item value=""></g:item>
                 <g:item value="Darth Vader">Darth Vader</g:item>
                 <g:item value="Luke Skywalker">Luke Skywalker</g:item>
@@ -20,13 +20,39 @@
                 <g:item value="Boba Fett">Boba Fett</g:item>
             </chzn:ChosenListBox>
 
+            <chzn:MultipleChosenValueListBox ui:field="multipleValues" width="300px"/>
+
         </div>
 
         <div class="{resources.style.example}">
 
-            <h2>Multiple select</h2>
+            <h2>Dark style</h2>
 
-            <chzn:MultipleChosenValueListBox ui:field="multipleValues" width="300px"/>
+            <chzn:ChosenListBox placeholderText="Choose your character..." width="300px" ui:field="singleChosenDark">
+                <g:item value=""></g:item>
+                <g:item value="Darth Vader">Darth Vader</g:item>
+                <g:item value="Luke Skywalker">Luke Skywalker</g:item>
+                <g:item value="Princess Leia">Princess Leia</g:item>
+                <g:item value="Boba Fett">Boba Fett</g:item>
+            </chzn:ChosenListBox>
+
+            <chzn:MultipleChosenValueListBox ui:field="multipleValuesDark" width="300px"/>
+
+        </div>
+
+        <div class="{resources.style.example}">
+
+            <h2>Unicorn style</h2>
+
+            <chzn:ChosenListBox placeholderText="Choose your character..." width="300px" ui:field="singleChosenUnicorn">
+                <g:item value=""></g:item>
+                <g:item value="Darth Vader">Darth Vader</g:item>
+                <g:item value="Luke Skywalker">Luke Skywalker</g:item>
+                <g:item value="Princess Leia">Princess Leia</g:item>
+                <g:item value="Boba Fett">Boba Fett</g:item>
+            </chzn:ChosenListBox>
+
+            <chzn:MultipleChosenValueListBox ui:field="multipleValuesUnicorn" width="300px"/>
 
         </div>
 
