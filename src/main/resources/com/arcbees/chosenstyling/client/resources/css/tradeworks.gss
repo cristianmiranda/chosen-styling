@@ -22,12 +22,12 @@
     display: block;
     height: 25px;
     padding: 5px;
-    padding-left: 10px;
+    padding-left: 14px;
     color: #808080;
     font-size: 14px;
-    -moz-box-shadow: 0px 1px 1px #B0B0B0;
-    -webkit-box-shadow: 0px 1px 1px #B0B0B0;
-    box-shadow: 0px 1px 1px #B0B0B0;
+    webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 4px 5px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.15);
 }
 .chzn-container-single .chzn-single div b {
     display: none;
