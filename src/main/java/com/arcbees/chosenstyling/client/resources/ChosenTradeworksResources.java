@@ -1,18 +1,18 @@
 package com.arcbees.chosenstyling.client.resources;
 
-import com.arcbees.chosen.client.resources.ChosenCss;
-import com.arcbees.chosen.client.resources.Resources;
+import com.google.gwt.resources.client.CssResource;
+import com.watopi.chosen.client.resources.ChozenCss;
+import com.watopi.chosen.client.resources.Resources;
 
 public interface ChosenTradeworksResources extends Resources {
-    interface CustomChosenCss extends ChosenCss {
+    interface CustomChosenCss extends ChozenCss {
     }
-
+    @CssResource.NotStrict
     @Override
-    @Source({"com/arcbees/gsss/mixin/client/mixins.gss",
-            "com/arcbees/chosen/client/resources/icons/icons.gss",
-            "css/chosenTradeworksColors.gss",
-            "com/arcbees/chosen/client/resources/css/chosen.gss",
+    @Source({"css/chosenTradeworksColors.gss",
+            "css/mixins.gss",
             "css/tradeworks.gss",
-            "com/arcbees/chosen/client/resources/css/mobile.gss"})
+            "css/mobile.gss",
+            "css/chosen.gss"})
     CustomChosenCss css();
 }
