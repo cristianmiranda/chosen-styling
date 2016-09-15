@@ -1,12 +1,32 @@
+.chzn-container .chzn-results ul {
+    overflow-y: overlay;
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+.chzn-container .chzn-results {
+    margin: 0;
+    padding: 0;
+}
 .chzn-container .chzn-results li {
-    height: 25px;
+    height: 40px;
     color: #B3B3B3;
+    padding-left: 20px;
     font-size: 14px;
+    position: relative;
 }
 .chzn-container .chzn-drop,
 .chzn-container-single .chzn-single {
-    background-color: #FFFFFF;
-    color: #0000000;
+	margin-top: 1px;
+    webkit-box-shadow: 0 2px 3px 2px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 2px 3px 2px rgba(0,0,0,0.15);
+	box-shadow: 0 2px 3px 2px rgba(0,0,0,0.15);
 }
 .chzn-container .chzn-results li em {
     background: none;
@@ -17,45 +37,51 @@
     background-image: none;
     background: #FFFFFF none top left no-repeat;
     filter: none;
-    border-radius: 0;
-    border: 1px solid #B0B0B0;
+    border: none;
+    border-radius: 2px;
     display: block;
-    height: 25px;
+    height: 37px;
     padding: 5px;
-    padding-left: 14px;
+    padding-left: 20px;
     color: #808080;
     font-size: 14px;
-    webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0 4px 5px rgba(0,0,0,0.15);
-    box-shadow: 0 4px 5px rgba(0,0,0,0.15);
+    webkit-box-shadow: 0 0px 3px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 0px 3px 2px rgba(0,0,0,0.15);
+    box-shadow: 0 0px 3px 2px rgba(0,0,0,0.15);
+    line-height: 2.8;
 }
+
 .chzn-container-single .chzn-single div b {
     display: none;
 }
 .chzn-container .chzn-drop {
     border-radius: 0;
-    border: 1px solid #C2C2C2;
+    border: none;
 }
 .chzn-container .chzn-results .highlighted {
-    background: #F2F2F2;
+	background: #F2F2F2;
     color: #ADADAD;
 }
 .chzn-container .chzn-results li {
-    padding-left: 10px;
-    line-height: 1.5;
+    maergin-left: 20x;
+    line-height: 3.0;
 }
 .chzn-container-single .chzn-search input,
 .chzn-rtl .chzn-search input {
-    height: 25px;
-    color: #595959;
+    height: 47px;
+    color: #808080;
     font-size: 14px;
     border: none;
     border-bottom: 2px solid #2B9CFF;
-    padding: 5px;
-    padding-left: 10px;
+    margin-left: 16px;
+    width: 414px !important;
     margin-bottom: 15px;
     background: none;
     box-shadow: none;
+}
+
+.icon_search:before {
+	content: '';
 }
 
 .chzn-container-single .chzn-single div {}
